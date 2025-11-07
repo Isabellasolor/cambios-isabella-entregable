@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambios Isabella - Profesional en la Compra y Venta de Divisas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Playfair+Display:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Banner Superior Dinámico -->
+    <div class="banner-top">
+        <div class="banner-content">
+            <p class="banner-text">Profesional en la Compra y Venta de Divisas Cambios Isabella</p>
+        </div>
+    </div>
+
+    <!-- Banner Promocional Dinámico -->
+    <div class="banner-promo">
+        <div class="banner-content">
+            <p class="banner-promo-text">Somos su casa de Cambio disponible las 24 horas del día, de los 365 días del año en la Zona de frontera con Cucuta y Urena</p>
+        </div>
+    </div>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Cambios Isabella</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#quienes-somos" class="nav-link">Quiénes Somos</a></li>
+                <li><a href="#normatividad" class="nav-link">Normatividad</a></li>
+                <li><a href="#noticias" class="nav-link">Noticias</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Principal - Inicio -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2 class="main-title">Profesional en la Compra y Venta de Divisas Cambios Isabella</h2>
+            
+            <!-- Tasa del Día -->
+            <div class="exchange-rates">
+                <h3 class="section-title">Tasa del Día</h3>
+                <div class="rates-grid">
+                    <div class="rate-card">
+                        <h4>Pesos Colombianos (COP)</h4>
+                        <div class="rate-values">
+                            <div class="rate-item">
+                                <span class="rate-label">Compra:</span>
+                                <span class="rate-value" id="cop-compra">$0</span>
+                            </div>
+                            <div class="rate-item">
+                                <span class="rate-label">Venta:</span>
+                                <span class="rate-value" id="cop-venta">$0</span>
+                                <a href="https://wa.me/573118756267?text=Hola,%20quiero%20cotizar%20Pesos%20Colombianos%20(COP)" target="_blank" class="cotizar-btn">Cotizar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rate-card">
+                        <h4>Dólares (USD)</h4>
+                        <div class="rate-values">
+                            <div class="rate-item">
+                                <span class="rate-label">Compra:</span>
+                                <span class="rate-value" id="usd-compra">$0</span>
+                            </div>
+                            <div class="rate-item">
+                                <span class="rate-label">Venta:</span>
+                                <span class="rate-value" id="usd-venta">$0</span>
+                                <a href="https://wa.me/573118756267?text=Hola,%20quiero%20cotizar%20Dólares%20(USD)" target="_blank" class="cotizar-btn">Cotizar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rate-card">
+                        <h4>Euros (EUR)</h4>
+                        <div class="rate-values">
+                            <div class="rate-item">
+                                <span class="rate-label">Compra:</span>
+                                <span class="rate-value" id="eur-compra">€0</span>
+                            </div>
+                            <div class="rate-item">
+                                <span class="rate-label">Venta:</span>
+                                <span class="rate-value" id="eur-venta">€0</span>
+                                <a href="https://wa.me/573118756267?text=Hola,%20quiero%20cotizar%20Euros%20(EUR)" target="_blank" class="cotizar-btn">Cotizar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rate-card">
+                        <h4>Bolívares (VES)</h4>
+                        <div class="rate-values">
+                            <div class="rate-item">
+                                <span class="rate-label">Compra:</span>
+                                <span class="rate-value" id="ves-compra">Bs. 0</span>
+                            </div>
+                            <div class="rate-item">
+                                <span class="rate-label">Venta:</span>
+                                <span class="rate-value" id="ves-venta">Bs. 0</span>
+                                <a href="https://wa.me/573118756267?text=Hola,%20quiero%20cotizar%20Bolívares%20(VES)" target="_blank" class="cotizar-btn">Cotizar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="rates-note">* Tasas basadas en el promedio de casas de cambio de Cúcuta</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Quiénes Somos -->
+    <section id="quienes-somos" class="section">
+        <div class="container">
+            <h2 class="section-title">Quiénes Somos</h2>
+            <div class="content-box">
+                <p class="text-content">
+                    Cambios Isabella es una casa de cambio profesional especializada en la compra y venta de divisas, 
+                    ubicada en la zona de frontera entre Cúcuta y Ureña. Nos caracterizamos por ofrecer un servicio 
+                    confiable, transparente y profesional a nuestros clientes.
+                </p>
+                <p class="text-content">
+                    Nuestra misión es brindar servicios de cambio de divisas con las mejores tasas del mercado, 
+                    garantizando seguridad y confianza en cada transacción. Estamos comprometidos con la excelencia 
+                    y el cumplimiento de todas las normativas vigentes.
+                </p>
+                <p class="text-content">
+                    Contamos con un equipo de profesionales altamente capacitados y con años de experiencia en el 
+                    sector cambiario, lo que nos permite ofrecer un servicio de calidad superior.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Normatividad -->
+    <section id="normatividad" class="section">
+        <div class="container">
+            <h2 class="section-title">Normatividad</h2>
+            <div class="content-box">
+                <p class="text-content">
+                    Como casa de cambio profesional, Cambios Isabella se rige por las siguientes leyes, decretos y 
+                    normativas que regulan la actividad de compra y venta de divisas en Colombia:
+                </p>
+                <div class="regulations-list">
+                    <div class="regulation-item">
+                        <h4>Ley 9 de 1991</h4>
+                        <p>Normas generales para regular los cambios internacionales.</p>
+                        <a href="https://www.camara.gov.co/sites/public_html/leyes_hasta_1991/ley/1991/ley_0009_1991.html" target="_blank" class="regulation-link">Ver Ley 9 de 1991</a>
+                    </div>
+                    <div class="regulation-item">
+                        <h4>Decreto 444 de 1967</h4>
+                        <p>Régimen de cambios internacionales y de comercio exterior.</p>
+                        <a href="https://normograma.dian.gov.co/dian/compilacion/docs/decreto_0444_1967.htm" target="_blank" class="regulation-link">Ver Decreto 444 de 1967</a>
+                    </div>
+                    <div class="regulation-item">
+                        <h4>Resolución 210 de 2025</h4>
+                        <p>Actualización de la normativa sobre la actividad profesional de compra y venta de divisas.</p>
+                        <a href="https://www.dian.gov.co/Prensa/Paginas/NG-DIAN-socializo-actualizacion-de-normativa-sobre-actividad-profesional-de-compra-y-venta-de-divisas.aspx" target="_blank" class="regulation-link">Ver Resolución 210 de 2025</a>
+                    </div>
+                    <div class="regulation-item">
+                        <h4>Instituciones Reguladoras</h4>
+                        <ul class="institutions-list">
+                            <li><a href="https://www.dian.gov.co/" target="_blank">DIAN - Dirección de Impuestos y Aduanas Nacionales</a></li>
+                            <li><a href="https://www.banrep.gov.co/" target="_blank">Banco de la República</a></li>
+                            <li><a href="https://www.superfinanciera.gov.co/" target="_blank">Superintendencia Financiera de Colombia</a></li>
+                            <li><a href="https://www.uiaf.gov.co/" target="_blank">UIAF - Unidad de Información y Análisis Financiero</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Noticias -->
+    <section id="noticias" class="section">
+        <div class="container">
+            <h2 class="section-title">Noticias</h2>
+            <div class="news-grid">
+                <a href="https://forbes.co/" target="_blank" class="news-card">
+                    <div class="news-logo">
+                        <img src="https://www.forbes.com/favicon.ico" alt="Forbes" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div style="display:none;">📰</div>
+                    </div>
+                    <h4>Forbes Colombia</h4>
+                </a>
+                <a href="https://www.infolaft.com/" target="_blank" class="news-card">
+                    <div class="news-logo">
+                        <img src="https://www.infolaft.com/favicon.ico" alt="Infolaft" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div style="display:none;">📊</div>
+                    </div>
+                    <h4>Infolaft</h4>
+                </a>
+                <a href="https://www.dian.gov.co/" target="_blank" class="news-card">
+                    <div class="news-logo">
+                        <img src="https://www.dian.gov.co/favicon.ico" alt="DIAN" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div style="display:none;">🏛️</div>
+                    </div>
+                    <h4>DIAN</h4>
+                </a>
+                <a href="https://www.portafolio.co/" target="_blank" class="news-card">
+                    <div class="news-logo">
+                        <img src="https://www.portafolio.co/favicon.ico" alt="Portafolio" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div style="display:none;">📈</div>
+                    </div>
+                    <h4>Portafolio</h4>
+                </a>
+                <a href="https://www.eltiempo.com/" target="_blank" class="news-card">
+                    <div class="news-logo">
+                        <img src="https://www.eltiempo.com/favicon.ico" alt="El Tiempo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div style="display:none;">📰</div>
+                    </div>
+                    <h4>El Tiempo</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="section">
+        <div class="container">
+            <h2 class="section-title">Galería</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://res.cloudinary.com/dx2zf3tuy/image/upload/v1762460707/WhatsApp_Image_2025-11-06_at_13.10.07_b2nbe5.jpg" alt="Galería Cambios Isabella" onclick="openModal(this.src)">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://res.cloudinary.com/dx2zf3tuy/image/upload/v1762460707/WhatsApp_Image_2025-11-06_at_13.10.08_1_erub19.jpg" alt="Galería Cambios Isabella" onclick="openModal(this.src)">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://res.cloudinary.com/dx2zf3tuy/image/upload/v1762460709/WhatsApp_Image_2025-11-06_at_13.10.08_kvazmm.jpg" alt="Galería Cambios Isabella" onclick="openModal(this.src)">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://res.cloudinary.com/dx2zf3tuy/image/upload/v1762460707/WhatsApp_Image_2025-11-06_at_13.10.07_2_sjejtz.jpg" alt="Galería Cambios Isabella" onclick="openModal(this.src)">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://res.cloudinary.com/dx2zf3tuy/image/upload/v1762460707/WhatsApp_Image_2025-11-06_at_13.10.07_3_llbywl.jpg" alt="Galería Cambios Isabella" onclick="openModal(this.src)">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://res.cloudinary.com/dx2zf3tuy/image/upload/v1762460707/WhatsApp_Image_2025-11-06_at_13.10.07_1_cbvkhp.jpg" alt="Galería Cambios Isabella" onclick="openModal(this.src)">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://res.cloudinary.com/dx2zf3tuy/image/upload/v1762534759/WhatsApp_Image_2025-11-07_at_11.04.39_2_pjnyd9.jpg" alt="Galería Cambios Isabella" onclick="openModal(this.src)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para imágenes de galería -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2 class="section-title">Datos de Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>Dirección</h4>
+                        <p>Cl 7 4-96 Nuevo Escobal</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>WhatsApp</h4>
+                        <p><a href="https://wa.me/573118756267" target="_blank" class="whatsapp-link">+57 3118756267</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Horario de Atención</h4>
+                        <p>24 horas del día, 365 días del año</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h3 class="form-title">Envíanos un Mensaje</h3>
+                    <form action="https://formspree.io/f/mwpwgodv" method="POST" class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono:</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.1234567890123!2d-72.5078!3d7.8939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwNTMnMzguNCJOIDcywrAzMCcyOC4xIlc!5e0!3m2!1ses!2sco!4v1234567890123!5m2!1ses!2sco" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0; border-radius: 10px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Ubicación Cambios Isabella">
+                    </iframe>
+                    <p class="map-link">
+                        <a href="https://maps.app.goo.gl/xVDbdNc9mE4Usch57" target="_blank" class="external-link">📍 Ver en Google Maps</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Cambios Isabella. Todos los derechos reservados.</p>
+            <p>Profesional en la Compra y Venta de Divisas</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="g7YyBDaEoDmqv2kph_6j_";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+    </script>
+</body>
+</html>
+
